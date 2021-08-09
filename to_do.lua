@@ -12,7 +12,8 @@ to_do = {
     "niebieska, biala, niebieska - Quarry",
     "niebieska, niebieska, niebieska - moby",
     "bialy, niebieski, bialy - drewno",
-    "czerwona, czerwona, czerwona - zaginione snowballe"
+    "czerwona, czerwona, czerwona - zaginione snowballe",
+    "pomaranczowy, pomaranczowy, pomaranczowy - ciemciak",
 }
 for _, line in ipairs(to_do) do
     printLine(line)
