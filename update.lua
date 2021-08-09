@@ -1,2 +1,2 @@
-shell("delete update")
-shell("github Ozomo/computercraft/blob/main/update.lua update")
+shell.run("delete update")
+shell.run("github Ozomo/computercraft/blob/main/update.lua update")
