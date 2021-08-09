@@ -7,6 +7,7 @@ function printLine(line)
     monit.setCursorPos(1, y + 1)
 end
 to_do = {
+    "-----------Kolory ender chestow--------------",
     "niebieska, czerwona, biala - spatial kurczaki",
     "niebieska, biala, niebieska - Quarry",
     "niebieska, niebieska, niebieska - moby",
