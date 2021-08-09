@@ -1,0 +1,8 @@
+local monit = peripheral.wrap("top")
+monit.clear()
+monit.setCursorPos(1,1)
+print("-------//------")
+monit.setCursorPos(1,2)
+print("------//------")
+monit.setCursorPos(1,3)
+print("-----//-------")
