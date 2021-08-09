@@ -1,2 +1,2 @@
-shell.run(fs.delete("delete computercraft"))
-shell.run("github clone Ozomo/computercraft -b")
+shell.run("github clone Ozomo/computercraft -b main)
+shell.run("move update ..")
