@@ -1,0 +1,2 @@
+shell("delete update")
+shell("github Ozomo/update/new/main update")
