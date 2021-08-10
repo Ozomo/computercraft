@@ -28,7 +28,7 @@ if msg then
   elseif msg == 8 then monit.write("7")
   elseif msg == 9 then monit.write("8")
   elseif msg == 10 then monit.write("9")
-  elseif msg == 11 then monit.write("10")
+  elseif msg == 11 then monit.write("0")
   elseif msg == 16 then monit.write("q")
   elseif msg == 17 then monit.write("w")
   elseif msg == 18 then monit.write("e")
