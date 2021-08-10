@@ -1,2 +1,2 @@
-local modem = peripheral.fin("modem")
+local modem = peripheral.find("modem")
 modem.closeAll()
