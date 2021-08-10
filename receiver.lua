@@ -18,6 +18,7 @@ if msg then
         print("Stopping")
         rednet.close(sSide)
         return
+   elseif msg == 2 then monit.write("1")
    elseif msg == 16 then monit.write("q")
    elseif msg == 17 then monit.write("w")
    elseif msg == 18 then monit.write("e")
