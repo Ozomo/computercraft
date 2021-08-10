@@ -2,6 +2,7 @@ local sSide = "back"
 local y = 1
 local x = 1
 local monit = peripheral.wrap("right")
+monit.clear()
 monit.setCursorPos(x,y)
 print("Computer running on Channel "..os.getComputerID())
 rednet.open(sSide)
