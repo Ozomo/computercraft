@@ -9,7 +9,7 @@ print("Computer running on Channel "..os.getComputerID())
 rednet.open(sSide)
 while true do
 if y > 50 then
-  y == 1
+  y = 1
 end
 local id, msg = rednet.receive()
 if msg then
