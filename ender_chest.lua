@@ -8,11 +8,11 @@ function printLine(line)
 end
 to_do = {
     "-----------------Kolory ender chestow-----------------",
-    "niebieska, czerwona, biala - spatial kurczaki",
-    "niebieska, biala, niebieska - Quarry",
-    "niebieska, niebieska, niebieska - moby",
+    "niebieski, czerwony, bialy - spatial kurczaki",
+    "niebieski, bialy, niebieski - Quarry",
+    "niebieski, niebieski, niebieski - moby",
     "bialy, niebieski, bialy - drewno",
-    "czerwona, czerwona, czerwona - zaginione snowballe",
+    "czerwony, czerwony, czerwony - zaginione snowballe",
     "pomaranczowy, pomaranczowy, pomaranczowy - ciemciak",
 }
 for _, line in ipairs(to_do) do
