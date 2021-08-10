@@ -4,6 +4,6 @@ while true do
 local event, modemSide, senderChannel, 
   replyChannel, message, senderDistance = os.pullEvent("modem_message")
     print(message.." ")
-    modem.transmit(1, 2, read())
+    modem.transmit(2, 1, read())
 end
 modem.close(2)
