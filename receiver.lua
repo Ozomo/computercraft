@@ -4,6 +4,7 @@ local x = 1
 local monit = peripheral.wrap("right")
 monit.clear()
 monit.setCursorPos(x,y)
+monit.setTextColor(colors.white)
 print("Computer running on Channel "..os.getComputerID())
 rednet.open(sSide)
 while true do
