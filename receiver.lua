@@ -30,8 +30,8 @@ if msg then
   elseif msg == 10 then monit.write("9")
   elseif msg == 11 then monit.write("0")
   elseif msg == 14 then 
-    local xD, yD = monit.getCursorPos()
-    monit.setCursorPos(xD - 1, y)   -- backspace
+    xPos, yPos = monit.getCursorPos
+    monit.setCursorPos(xPos - 1, yPos)   -- backspace
     monit.write(" ")
   elseif msg == 16 then monit.write("q")
   elseif msg == 17 then monit.write("w")
