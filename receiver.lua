@@ -51,7 +51,7 @@ if msg then
    elseif msg == 47 then monit.write("v")
    elseif msg == 48 then monit.write("b")
    elseif msg == 49 then monit.write("n")
-   elseif msg == 50 then monit.write("b")
+   elseif msg == 50 then monit.write("m")
    elseif msg == 51 then monit.write(",")
    elseif msg == 52 then monit.write(".")
    elseif msg == 53 then monit.write("/")
