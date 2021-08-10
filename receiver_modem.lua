@@ -6,6 +6,6 @@ monit.setCursorPos(1,1)
 while true do
 local event, modemSide, senderChannel, 
   replyChannel, message, senderDistance = os.pullEvent("modem_message")
-monit.write(message.." ")
+monit.write(message)
 end
 modem.close(2)
