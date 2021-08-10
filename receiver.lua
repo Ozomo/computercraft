@@ -8,8 +8,10 @@ monit.setTextColor(colors.white)
 print("Computer running on Channel "..os.getComputerID())
 rednet.open(sSide)
 while true do
+  x, y = monit.getCursorPos()
   if x > 20 then
-    x = x - 19
+    x = 1
+    y = y+1
   end
 local id, msg = rednet.receive()
 if msg then
