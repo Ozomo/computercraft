@@ -8,14 +8,15 @@ function printLine(line)
 end
 to_do = {
     "-----------------Kolory ender chestow-----------------",
-    "niebieski, czerwony, bialy - spatial kurczaki",
-    "niebieski, bialy, niebieski - Quarry",
-    "niebieski, niebieski, niebieski - moby",
-    "bialy, niebieski, bialy - drewno",
-    "czerwony, czerwony, czerwony - zaginione snowballe",
-    "pomaranczowy, pomaranczowy, pomaranczowy - ciemciak",
-    "niebieski, pomaranczowy, czerwony - paliwo do reaktora",
-    "niebieski, pomaranczowy, bialy - paliwo z reaktora",
+    "blue, red, white - spatial kurczaki",
+    "blue, white, blue - Quarry",
+    "blue, blue, blue - moby",
+    "white, blue, white - drewno",
+    "red, red, red - zaginione snowballe",
+    "orange, orange, orange - ciemciak",
+    "blue, orange, red - paliwo do reaktora",
+    "blue, orange, white - paliwo z reaktora",
+    "orange, pink, orange - carcoil",
 }
 for _, line in ipairs(to_do) do
     printLine(line)
