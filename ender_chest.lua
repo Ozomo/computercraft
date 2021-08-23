@@ -21,6 +21,7 @@ to_do = {
     "black, black, black - do withera",
     "orange, grey, grey - cobblestone",
     "lime, lime, lime - do ciemciaka systemu",
+    "orange, grey, lime - seeds",
 }
 for _, line in ipairs(to_do) do
     printLine(line)
