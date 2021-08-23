@@ -18,6 +18,7 @@ to_do = {
     "blue, orange, white - paliwo z reaktora",
     "orange, pink, orange - carcoil",
     "grey, cyan, grey - QQ nikodema",
+    "black, black, black - do withera",
 }
 for _, line in ipairs(to_do) do
     printLine(line)
